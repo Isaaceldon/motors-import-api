@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "usa-motors-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "D:\\Dev Projects\\Projects\\usa-motors-import-website"],
+      "port": 5173
+    },
+    {
+      "name": "usa-motors-api",
+      "runtimeExecutable": "php",
+      "runtimeArgs": ["artisan", "serve", "--port=8000"],
+      "port": 8000
+    }
+  ]
+}
